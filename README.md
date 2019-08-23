@@ -6,6 +6,22 @@ This repository contains instructions on how to reproduce our experiments and fi
 
 This table describes where the code that was used to generate each figure came from. By running the appropriate iPython notebook cells one should get the same figure. 
 
+NOTE: In general, when running code it a notebook, every cell will rely on cells above it, which define package imports and custom functions. If you want to run cell N, you must run cells 1, 2, ..., N-1 first.
+
+| Figure Number | Notebook Which Generates It        | Block of cells |
+|---------------|------------------------------------|----------------|
+| 1             | ??                                 | ??             |
+| 2             | `dataset-characteristics.ipynb`    |                |
+| 3             | `dataset-characteristics.ipynb`    |                |
+| 4             | `alta-bates-closure.ipynb`         |               |
+| 5             | `alta-bates-closure.ipynb`         |               |
+| 6             | `approx-optimality-analysis.ipynb` |                |
+| 7             | `approx-optimality-analysis.ipynb` |                |
+| 8             | `approx-optimality-analysis.ipynb` |                |
+| 9             | `approx-optimality-analysis.ipynb` |                |
+| 10            | `alta-bates-closure.ipynb`         |                |
+| 11            | `alta-bates-closure.ipynb`         |                |
+| 12            | `approx-optimality-analysis.ipynb` |                |
 
 ## Organization of the notebooks
 
@@ -17,7 +33,7 @@ Our analysis is split up into four notebooks. Here is a high-level summary of wh
 
 `approx-optimality-analysis.ipynb`: Contains the code for section 4.3. Generate the heatmaps of scale factors for various allocations (Figures 7 - 9), as well as growth of the worst scale factor for the approximately optimal allocation as a function of lambda (Figure 12 in the appendix). This also contains the code to find the optimal replacement for Alta Bates under various lambda, eta values (Figure 6). 
 
-`alta-bates-closure.ipynb`: Contains some of the code for section 4.2 on Alta Bates' closure. Contains the code analyzing the load increases for nearby hospitals (Figures 4-5), and increases in travel distance for the displaced Alta Bates users (Figures 10-11). 
+`alta-bates-closure.ipynb`: Contains some of the code for section 4.2 on Alta Bates' closure. Contains the code analyzing the load increases for nearby hospitals (Figures 4-5), and increases in travel distance for the displaced Alta Bates users (Figures 10-11). Computes some statistics about facility 16 - such as the number of users it has when opened, and what their average travel distance is before/after it is opened. 
 
 ## Software requirements
 
