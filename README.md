@@ -4,24 +4,24 @@ This repository contains instructions on how to reproduce our experiments and fi
 
 ## Reproducing each figure
 
-This table describes where the code that was used to generate each figure came from. By running the appropriate iPython notebook cells one should get the same figure. 
+This table describes where the code that was used to generate each figure came from. By running the appropriate iPython notebook. The "Block of cells" column describes the heading where functions used to generate the figure in question begin. Notebooks with multiple figures are split up into multiple blocks of cells. 
 
-NOTE: In general, when running code it a notebook, every cell will rely on cells above it, which define package imports and custom functions. If you want to run cell N, you must run cells 1, 2, ..., N-1 first.
+**NOTE**: In general, when running code it a notebook, *every cell will rely on cells before it*, which are used for package imports and custom functions. If you want to run cell N, you must run cells 1, 2, ..., N-1 first.
 
-| Figure Number | Notebook Which Generates It        | Block of cells |
-|---------------|------------------------------------|----------------|
-| 1             | `fac-overlay.ipynb`                | All            |
-| 2             | `dataset-characteristics.ipynb`    |                |
-| 3             | `dataset-characteristics.ipynb`    |                |
-| 4             | `alta-bates-closure.ipynb`         |                |
-| 5             | `alta-bates-closure.ipynb`         |                |
-| 6             | `approx-optimality-analysis.ipynb` |                |
-| 7             | `approx-optimality-analysis.ipynb` |                |
-| 8             | `approx-optimality-analysis.ipynb` |                |
-| 9             | `approx-optimality-analysis.ipynb` |                |
-| 10            | `alta-bates-closure.ipynb`         |                |
-| 11            | `alta-bates-closure.ipynb`         |                |
-| 12            | `approx-optimality-analysis.ipynb` |                |
+| Figure Number | Notebook Which Generates It        | Block of cells                                    |
+|---------------|------------------------------------|---------------------------------------------------|
+| 1             | `fac-overlay.ipynb`                | All                                               |
+| 2             | `dataset-characteristics.ipynb`    | "Compute Correlations"                            |
+| 3             | `dataset-characteristics.ipynb`    | "Scatterplots"                                    |
+| 4             | `alta-bates-closure.ipynb`         | "Load Increases"                                  |
+| 5             | `alta-bates-closure.ipynb`         | "Load Increases"                                  |
+| 6             | `approx-optimality-analysis.ipynb` | "Optimal Replacement to Alta Bates"               |
+| 7             | `approx-optimality-analysis.ipynb` | "Scale Factor Heatmap"                            |
+| 8             | `approx-optimality-analysis.ipynb` | "Scale Factor Heatmap"                            |
+| 9             | `approx-optimality-analysis.ipynb` | "Scale Factor Heatmap"                            |
+| 10            | `alta-bates-closure.ipynb`         | "Travel Distance Increase for Displaced Users"    |
+| 11            | `alta-bates-closure.ipynb`         | "Travel Distance Increase for Displaced Users"    |
+| 12            | `approx-optimality-analysis.ipynb` | "Worst Scale Factor vs Lambda"                    |
 
 ## Organization of the notebooks
 
