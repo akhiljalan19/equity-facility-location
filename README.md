@@ -2,8 +2,6 @@
 
 This repository contains instructions on how to reproduce our experiments and figures. 
 
-[Headers](#headers)
-
 ## Reproducing each figure
 
 This table describes where the code that was used to generate each figure came from. By running the appropriate iPython notebook. The "Block of cells" column describes the heading where functions used to generate the figure in question begin. Notebooks with multiple figures are split up into multiple blocks of cells. 
