@@ -10,11 +10,11 @@ NOTE: In general, when running code it a notebook, every cell will rely on cells
 
 | Figure Number | Notebook Which Generates It        | Block of cells |
 |---------------|------------------------------------|----------------|
-| 1             | ??                                 | ??             |
+| 1             | `fac-overlay.ipynb`                | All            |
 | 2             | `dataset-characteristics.ipynb`    |                |
 | 3             | `dataset-characteristics.ipynb`    |                |
-| 4             | `alta-bates-closure.ipynb`         |               |
-| 5             | `alta-bates-closure.ipynb`         |               |
+| 4             | `alta-bates-closure.ipynb`         |                |
+| 5             | `alta-bates-closure.ipynb`         |                |
 | 6             | `approx-optimality-analysis.ipynb` |                |
 | 7             | `approx-optimality-analysis.ipynb` |                |
 | 8             | `approx-optimality-analysis.ipynb` |                |
@@ -25,7 +25,9 @@ NOTE: In general, when running code it a notebook, every cell will rely on cells
 
 ## Organization of the notebooks
 
-Our analysis is split up into four notebooks. Here is a high-level summary of what each one does. 
+Our analysis is split up into various Jupyter notebooks. Each notebook contains text to explain the different sections of code, and function documentation with input/output behavior. Here is a high-level summary of each notebook.
+
+`fac-overlay.ipynb`: Contains the code to generate Figure 1. Using screenshots of Google Maps, as well as Latitude/Longitude coordinates for the hospitals in our dataset, we overlay the facilities as a scatterplot on the raw Google Maps image.
 
 `dataset-characteristics.ipynb`: Contains the code for section 4.1, describing characteristics of Alameda and Contra Costa county. Contains the code used to generate demographic scatterplots (Figure 2). Computes the correlations of different groups (Figure 3). 
 
