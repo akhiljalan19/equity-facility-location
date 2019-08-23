@@ -164,13 +164,3 @@ income_split_df_all = al_income_df[['Latitude', 'Longitude', 'Value', 'Variable'
                         .copy().append(cc_income_df[['Latitude', 'Longitude', 'Value', 'Variable']].copy())
 health_ins_split_df_all = al_health_ins_split_df[['Latitude', 'Longitude', 'Value', 'Variable']]\
                         .copy().append(cc_health_ins_df[['Latitude', 'Longitude', 'Value', 'Variable']].copy())
-
-
-
-
-
-
-
-
-
-
